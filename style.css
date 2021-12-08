@@ -158,3 +158,9 @@
     text-overflow: ellipsis;
     /*flex-grow: 0;*/
 }
+
+@media (max-width: 768px){
+    .grid--horizontal .grid__item{
+        max-width: 100%;
+    }
+}
