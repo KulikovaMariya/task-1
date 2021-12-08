@@ -136,8 +136,7 @@
 }
 
 .grid--horizontal .card__pic {
-    /*max-width: 345px;*/
-    height: 264px;
+    height: 100%;
     border-radius: 8px 0 0 8px;
     /*flex-shrink: 1;*/
 }
