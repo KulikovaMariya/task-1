@@ -132,13 +132,11 @@
 
 .grid--horizontal .card__head {
     width: 50%;
-    /*flex-shrink: 1;*/
 }
 
 .grid--horizontal .card__pic {
     height: 100%;
     border-radius: 8px 0 0 8px;
-    /*flex-shrink: 1;*/
 }
 
 .grid--horizontal .card__name {
@@ -148,14 +146,6 @@
 .grid--horizontal .card__body {
     border-radius: 0 8px 8px 0;
     padding: 16px 9px;
-    /*flex-shrink: 2;*/
-    /*flex-grow: 0;*/
-}
-
-.grid--horizontal .card__descr {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    /*flex-grow: 0;*/
 }
 
 @media (max-width: 768px){
