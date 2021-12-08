@@ -32,7 +32,6 @@
 }
 
 .card {
-    display: block;
     font: 16px/24px Roboto, Arial, Helvetica, sans-serif;
     color: #000;
     text-decoration: none;
@@ -121,4 +120,41 @@
     overflow: hidden;
     text-overflow: ellipsis;
     text-decoration: none;
+}
+
+.grid--horizontal .grid__item{
+    max-width: 50%;
+}
+
+.grid--horizontal .card{
+    flex-direction: row;
+}
+
+.grid--horizontal .card__head {
+    width: 50%;
+    /*flex-shrink: 1;*/
+}
+
+.grid--horizontal .card__pic {
+    /*max-width: 345px;*/
+    height: 264px;
+    border-radius: 8px 0 0 8px;
+    /*flex-shrink: 1;*/
+}
+
+.grid--horizontal .card__name {
+    border-radius: 0 8px 0 8px;
+}
+
+.grid--horizontal .card__body {
+    border-radius: 0 8px 8px 0;
+    padding: 16px 9px;
+    /*flex-shrink: 2;*/
+    /*flex-grow: 0;*/
+}
+
+.grid--horizontal .card__descr {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*flex-grow: 0;*/
 }
